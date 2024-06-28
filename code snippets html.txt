@@ -1,0 +1,50 @@
+HTML SNIPPETS:
+
+SCRIPTS FOR MENU DROPDOWNS:
+function worldFunction(){
+  document.getElementById("worldmenu").classList.toggle("show");
+}
+
+function hideworldFunction(){
+  document.getElementById("worldmenu").classList.toggle("hide");
+}
+
+function partyFunction(){
+  document.getElementById("partymenu").classList.toggle("show");
+}
+window.mouseover = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdownw = document.getElementsByClassName("worlddropdown-content");
+    var dropdownp = document.getElementsByClassName("partydropdown-content");	
+    var i;
+    var j;
+    for (i = 0; i < dropdownw.length; i++) {
+      var openDropdownw = dropdownw[i];
+      if (openDropdownw.classList.contains('show')) {
+        openDropdownw.classList.remove('show');
+      }
+    }
+     for (j = 0; j < dropdownp.length; j++) {
+      var openDropdownp = dropdownp[j];
+      if (openDropdownp.classList.contains('show')) {
+        openDropdownp.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+
+WORLD DROPDOWN:
+<div class="dropdown">
+  <button onclick="worldFunction()" onmouseout="hideworldFunction()" class="dropbtn">World</button>
+
+    <div id="worldmenu" class="worlddropdown-content">
+
+
+
+PARTY DROPDOWN:
+  <li><div class="dropdown">
+  <button onclick="partyFunction()" class="dropbtn">Party</button></li>
+  <div id="partymenu" class="partydropdown-content" >
+

@@ -1,0 +1,32 @@
+<html>
+
+<style>
+.partylist {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+
+
+</style>
+<script>
+function partyFunction() {
+  var x = document.getElementById("party");
+  if (x.className.indexOf("partylist") == -1){
+    x.className += "partylist";
+} else {
+    x.className = x.className.replace("partylist","");
+}
+}
+
+</script>
+<button onclick="partyFunction()">TEST</button>
+
+<div class="partylist" id="party">
+TEST
+</div>
+
+</html>
