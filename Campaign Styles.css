@@ -63,16 +63,19 @@ ul.a li a, .dropbtn {
 ul.a li a:hover, dropdown:hover, .dropbtn:hover {
   background-color: rgb(150,12,12);
   color: white;
+
 }
 
 ul.a li.dropdown {
   display: inline-block;
   margin-left: 50px;
   margin-right: 10px;
+  cursor: none;
 }
 
 ul.a li.dropdown:hover {
   background-color: black;
+  cursor: none;
 }
 
 ul.a .dropdown-content {
