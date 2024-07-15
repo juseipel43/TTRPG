@@ -11,6 +11,10 @@ body {
   color: white;
 }
 
+a:visited {
+  text-decoration: none;
+  color: white;
+}
 .boxcontainer {
   display: flex;
   width: 92%;
@@ -35,7 +39,7 @@ body {
   float: none;
   width: 90%;
   margin: auto;
-  height: 200px;
+  height: auto;
   display: flex;
   margin-top: 15px;
 }
@@ -167,4 +171,7 @@ footer {
   margin: auto;
 }
 
-
+.journal {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+}
