@@ -112,6 +112,7 @@ ul.a .dropdown:hover .dropdown-content{
   color: white;
   width: 96%;
   display: inline-block;
+  padding: 15px;
 }
 
 /*ONLY FOR THE MAIN PAGE*/
