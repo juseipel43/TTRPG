@@ -6,7 +6,7 @@ html {
   height: 1260px;
 }
 
-<!--BODY formatting; controls the whole site font color, family, and size-->
+<!--BODY formatting, controls the whole site font color, family, and size-->
 body {
   font-size: 16px;
   font-family: arial;
@@ -84,7 +84,7 @@ ul.a .dropdown:hover .dropdown-content{
 <!--THIS IS WHERE THE NAVIGATION FORMATTING ENDS-->
 
 
-<!--THIS IS THE CONTAINERS TO HELP CONSTRAIN THE BOX ELEMENTS; KEEPS THINGS ORGANIZED-->
+<!--THIS IS THE CONTAINERS TO HELP CONSTRAIN THE BOX ELEMENTS,KEEPS THINGS ORGANIZED-->
 .boxcontainer {
   display: flex;
   width: 92%;
@@ -92,7 +92,7 @@ ul.a .dropdown:hover .dropdown-content{
   padding: 15px;
 }
 
-<!--THE INDIVIDUAL BOXES, WHICH FLOAT AND COVER THE SCREEN; HOLDS VARIOUS ITEMS-->
+<!--THE INDIVIDUAL BOXES, WHICH FLOAT AND COVER THE SCREEN, HOLDS VARIOUS ITEMS-->
 .box {
   border: solid 1px white;
   background-color: rgba(0,0,0,0.2);
