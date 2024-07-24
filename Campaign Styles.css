@@ -92,6 +92,13 @@ ul.a .dropdown:hover .dropdown-content{
   padding: 15px;
 }
 
+.largeboxcontainer {
+  margin: auto;
+  width: 99%;
+  padding: 15px;
+}
+  
+
 /*THE INDIVIDUAL BOXES, WHICH FLOAT AND COVER THE SCREEN, HOLDS VARIOUS ITEMS*/
 .box {
   border: solid 1px white;
@@ -110,7 +117,7 @@ ul.a .dropdown:hover .dropdown-content{
   float: none;
   margin: auto;
   color: white;
-  width: 96%;
+  width: 97%;
   display: inline-block;
   margin-bottom: 15px;
 }
