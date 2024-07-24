@@ -103,6 +103,17 @@ ul.a .dropdown:hover .dropdown-content{
   display: inline-block;
 }
 
+/*LARGER BOX TO HOLD PAGE WIDTH FIELDS*/
+.largebox {
+  border: solid 1px white;
+  background-color: rgba(0,0,0,0.2);
+  float: none;
+  margin: auto;
+  color: white;
+  width: 96%;
+  display: inline-block;
+}
+
 /*ONLY FOR THE MAIN PAGE*/
 h2 {
   text-align: center;
