@@ -1,4 +1,4 @@
-<!--THIS IS THE BACKGROUND FOR EACH OF THE PAGES-->
+/*THIS IS THE BACKGROUND FOR EACH OF THE PAGES*/
 html {
   background-image: url("Main_Background.png");
   background-size: cover;
@@ -6,20 +6,20 @@ html {
   height: 1260px;
 }
 
-<!--BODY formatting, controls the whole site font color, family, and size-->
+/*BODY formatting, controls the whole site font color, family, and size*/
 body {
   font-size: 16px;
   font-family: arial;
   color: white;
 }
 
-<!--LINKS SHOW AS NORMAL AND DO NOT CHANGE COLOR WHEN PREVIOUSLY VISITED-->
+/*LINKS SHOW AS NORMAL AND DO NOT CHANGE COLOR WHEN PREVIOUSLY VISITED*/
 a:visited {
   text-decoration: none;
   color: white;
 }
 
-<!--BELOW THIS LINE COVERS THE NAVIGATION USED ON EVERY PAGE. SEE END BELOW-->
+/*BELOW THIS LINE COVERS THE NAVIGATION USED ON EVERY PAGE. SEE END BELOW*/
 ul.a {
   background-color: black;
   font-size: 18px;
@@ -81,10 +81,10 @@ ul.a .dropdown-content a:hover{
 ul.a .dropdown:hover .dropdown-content{
   display: block;
 }
-<!--THIS IS WHERE THE NAVIGATION FORMATTING ENDS-->
+/*THIS IS WHERE THE NAVIGATION FORMATTING ENDS*/
 
 
-<!--THIS IS THE CONTAINERS TO HELP CONSTRAIN THE BOX ELEMENTS,KEEPS THINGS ORGANIZED-->
+/*THIS IS THE CONTAINERS TO HELP CONSTRAIN THE BOX ELEMENTS,KEEPS THINGS ORGANIZED*/
 .boxcontainer {
   display: flex;
   width: 92%;
@@ -92,7 +92,7 @@ ul.a .dropdown:hover .dropdown-content{
   padding: 15px;
 }
 
-<!--THE INDIVIDUAL BOXES, WHICH FLOAT AND COVER THE SCREEN, HOLDS VARIOUS ITEMS-->
+/*THE INDIVIDUAL BOXES, WHICH FLOAT AND COVER THE SCREEN, HOLDS VARIOUS ITEMS*/
 .box {
   border: solid 1px white;
   background-color: rgba(0,0,0,0.2);
@@ -103,7 +103,7 @@ ul.a .dropdown:hover .dropdown-content{
   display: inline-block;
 }
 
-<!--ONLY FOR THE MAIN PAGE-->
+/*ONLY FOR THE MAIN PAGE*/
 h2 {
   text-align: center;
   font-size: 36px;
@@ -149,7 +149,7 @@ ul.b li {
   margin-left: -10px;
 }
 
-<!--ANIMATION TO FADE IN THE TEXT ON THE MAIN PAGE-->
+/*ANIMATION TO FADE IN THE TEXT ON THE MAIN PAGE*/
 @keyframes fadeIn{
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -174,9 +174,9 @@ ul.b li {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
-<!--END OF ANIMATION FORMATTING-->
+/*END OF ANIMATION FORMATTING*/
 
-<!--FOOTER INFORMATION AT THE BOTTOM OF EACH PAGE-->
+/*FOOTER INFORMATION AT THE BOTTOM OF EACH PAGE*/
 footer {
   text-align: center;
   color: white;
@@ -184,7 +184,7 @@ footer {
 }
 
 
-<!--SPECIFIC FOR THE ADVENTURING PACK PAGE-->
+/*SPECIFIC FOR THE ADVENTURING PACK PAGE*/
 .journal {
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 15px;
