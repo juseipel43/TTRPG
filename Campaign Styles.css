@@ -120,6 +120,7 @@ ul.a .dropdown:hover .dropdown-content{
   width: 97%;
   display: inline-block;
   margin-bottom: 15px;
+  padding: 5px;
 }
 
 /*ONLY FOR THE MAIN PAGE*/
