@@ -3,6 +3,7 @@ html {
   background-image: url("Main_Background.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 1260px;
 }
 
@@ -131,7 +132,11 @@ h2 {
   margin: auto;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgb(150,12,12);
-  color: rgba(0,0,0,0.0);
+  color: rgba(0,0,0,0.4);
+  margin-top: auto;
+  margin-bottom: -2px;
+  display: inline-block;
+}
 }
 
 .stats {
@@ -208,4 +213,46 @@ footer {
 .journal {
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 15px;
+}
+
+
+dl {
+  margin: auto;
+ 
+}
+
+dt a{
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  display: inline;
+  text-decoration: none;
+}
+
+
+dd {
+  font-style: oblique;
+  background-color: rgba(255,255,255, 0.3);
+  color: black;
+
+
+
+}
+
+
+.entry {
+  display: none;
+  width: 95%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.racedef {
+  display: block;
+}
+
+.expand {
+  color: white;
+
 }
