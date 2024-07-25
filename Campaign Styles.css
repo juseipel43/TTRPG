@@ -98,6 +98,7 @@ ul.a .dropdown:hover .dropdown-content{
   width: 99%;
   padding: 15px;
 }
+
   
 
 /*THE INDIVIDUAL BOXES, WHICH FLOAT AND COVER THE SCREEN, HOLDS VARIOUS ITEMS*/
@@ -109,6 +110,9 @@ ul.a .dropdown:hover .dropdown-content{
   color: white;
   width: 48%;
   display: inline-block;
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 /*LARGER BOX TO HOLD PAGE WIDTH FIELDS*/
@@ -124,6 +128,14 @@ ul.a .dropdown:hover .dropdown-content{
   padding: 5px;
 }
 
+.statbox { 
+  width: 87%;
+  border: solid 1px white;
+  background-color: rgba(0,0,0,0.2);
+  margin: auto;
+  font-size: 20px;
+}
+
 /*ONLY FOR THE MAIN PAGE*/
 h2 {
   text-align: center;
@@ -137,26 +149,58 @@ h2 {
   margin-bottom: -2px;
   display: inline-block;
 }
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: black;
+   -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(150,12,12);
+  color: rgba(0,0,0,0.4);
+  margin-top: auto;
+  margin-bottom: -2px;
+ 
 }
 
 .stats {
   color: white;
   border: solid 1px white;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.4);
   float: none;
   width: 90%;
-  margin: auto;
+  margin-left: 5%;
   height: auto;
-  display: flex;
+  display: inline-block;
   margin-top: 15px;
+  height: auto;
 }
+
+
+
+.statsbox {
+  font-size: 20px;
+  float: left;
+  color: white;
+  width: 48%;
+  display: inline;
+  text-align: right;
+}
+
+.statsbox ul {
+  list-style-type: none;
+}
+h3 {
+display: block;
+}
+
 
 .story {
   color: white;
   background-color: rgba(0,0,0,0.2);
   animation: fadeIn 5s;
-  margin-left: 50px;
+  margin: auto;
   text-align: left;
+  font-size: 24px;
   -webkit-animation: fadeIn 5s;
   -moz-animation: fadeIn 5s;
   -o-animation: fadeIn 5s;
@@ -213,6 +257,9 @@ footer {
 .journal {
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 15px;
+  margin:auto;
+  width: 90%;
+
 }
 
 
@@ -255,4 +302,22 @@ dd {
 .expand {
   color: white;
 
+}
+
+h3 {
+  margin-bottom: -3px;
+  margin-top: 0px;
+  margin-left: 5px;
+  font-size: 24px;
+
+}
+
+.box a {
+  color: white;
+}
+
+
+iframe {
+  width: 90%;
+  height: 850px;
 }
