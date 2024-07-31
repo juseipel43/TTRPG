@@ -1,7 +1,7 @@
 
 
 export function getData() {
-  const url = 'https://juseipel43.github.io/TTRPG/test.JSON';
+  const url = 'https://juseipel43.github.io/TTRPG';
 fetch(url);
   .then((resp)=>{
   console.log(resp
