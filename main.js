@@ -1,1 +1,1 @@
-import { getData } from './basic fetch.js';
+import { getData } from 'basic fetch.js';
