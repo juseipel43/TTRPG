@@ -1,12 +1,13 @@
 
-const url = 'https://juseipel43.github.io/TTRPG/test.JSON';
+const url = 'https://juseipel43.github.io/TTRPG/test.JSO';
 export function getData() {
   
 fetch(url)
  .then((resp)=>{
  //console.log(resp);
    //error checking
-   console.log(resp.status);
+   //checking to ensure 200-299
+   if (!resp.ok) throw new Error('was not a valid response');
  })
   .then()
   .catch(err=> {
