@@ -10,7 +10,9 @@ fetch(url)
    if (!resp.ok) throw new Error('was not a valid response');
    return resp.json(); //method to extract JSON string and conver it to an object
  })
-  .then()
+  .then((dataobj)=> {
+    console.log(dataobj);
+  })
   .catch(err=> {
   console.warn(err.message);
   });
