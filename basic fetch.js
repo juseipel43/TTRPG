@@ -11,7 +11,7 @@ fetch(url)
    return resp.json(); //method to extract JSON string and conver it to an object
  })
   .then((dataobj)=> {
-    console.log(dataobj);
+    console.log(dataobj.Strength);
   })
   .catch(err=> {
   console.warn(err.message);
