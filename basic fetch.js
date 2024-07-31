@@ -1,5 +1,5 @@
 
-const url = 'https://juseipel43.github.io/TTRPG/test.JSO';
+const url = 'https://juseipel43.github.io/TTRPG/test.JSON';
 export function getData() {
   
 fetch(url)
@@ -8,6 +8,7 @@ fetch(url)
    //error checking
    //checking to ensure 200-299
    if (!resp.ok) throw new Error('was not a valid response');
+   return resp.json(); //method to extract JSON string and conver it to an object
  })
   .then()
   .catch(err=> {
