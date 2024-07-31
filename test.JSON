@@ -4,32 +4,5 @@
 	"Constitution": 2,	
 	"Intelligence": 3,	
 	"Wisdom": 4,	
-	"Charisma": 5	},
-	"Dan"	{
-	"Strength": 0,	
-	"Dexterity": 1,	
-	"Constitution": 2,	
-	"Intelligence": 3,	
-	"Wisdom": 4,	
-	"Charisma": 5	},
-	"Jared"	{
-	"Strength": 0,	
-	"Dexterity": 1,	
-	"Constitution": 2,	
-	"Intelligence": 3,	
-	"Wisdom": 4,	
-	"Charisma": 5	},
-	"Jimmy"	{
-	"Strength": 0,	
-	"Dexterity": 1,	
-	"Constitution": 2,	
-	"Intelligence": 3,	
-	"Wisdom": 4,	
-	"Charisma": 5	},
-	"Lance"	{
-	"Strength": 0,	
-	"Dexterity": 1,	
-	"Constitution": 2,	
-	"Intelligence": 3,	
-	"Wisdom": 4,	
-	"Charisma": 5	}}
+	"Charisma": 5	}
+}
