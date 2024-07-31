@@ -2,7 +2,7 @@
 const url = 'https://juseipel43.github.io/TTRPG/test.JSON';
 export function getData() {
   
-fetch(url);
+fetch(url)
  .then((resp)=>{
  //console.log(resp);
    //error checking
